@@ -1,0 +1,37 @@
+{
+  "name": "student-research-forum",
+  "version": "1.0.0",
+  "description": "A platform for student research papers and discussions",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && touch out/.nojekyll"
+  },
+  "keywords": [
+    "student",
+    "research",
+    "medical",
+    "forum",
+    "next.js"
+  ],
+  "author": "Deekshant Singh",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^13.0.0"
+  }
+}
