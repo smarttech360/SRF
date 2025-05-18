@@ -177,7 +177,7 @@ export default function SubmitResearch() {
               required
               accept=".pdf"
               className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500"
-              onChange={(e) => setFormData({...formData, file: e.target.files?.[0] || null})}
+              //onChange={(e) => setFormData({...formData, file: e.target.files[0] })}
             />
             <p className="mt-2 text-sm text-gray-500">Maximum file size: 10MB</p>
           </div>
